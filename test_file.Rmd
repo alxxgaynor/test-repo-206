@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
-## Plot of MPG
+## Plot of MPG by Car Class
 
 ```{r}
 ggplot(data = mpg, aes(x = class, y = cty)) +
